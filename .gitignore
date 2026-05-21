@@ -1,20 +1,26 @@
-# IntelliJ IDEA
+# IDEs and Editors
 .idea/
+.vscode/
 *.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
 
-# Maven/Java Build outputs
+# Node / Frontend Dependencies
+node_modules/
+/dist
+/build
+
+# Backend / Java / Build Outputs
 target/
-build/
+bin/
 *.class
 *.jar
 *.war
 
-# Frontend (React/Angular)
-fitness-app-frontend/node_modules/
-fitness-app-frontend/build/
-fitness-app-frontend/dist/
-.env
-
-# OS generated files
+# Logs and OS files
+*.log
 .DS_Store
 Thumbs.db
