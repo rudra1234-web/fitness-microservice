@@ -1,0 +1,20 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Maven/Java Build outputs
+target/
+build/
+*.class
+*.jar
+*.war
+
+# Frontend (React/Angular)
+fitness-app-frontend/node_modules/
+fitness-app-frontend/build/
+fitness-app-frontend/dist/
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
